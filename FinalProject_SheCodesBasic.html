@@ -3,122 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/style.css"></script>
     <title>GuardiansOfHope</title>
   </head>
-  <style>
-    body {
-      background: linear-gradient(#afbdb5, #95a79c, #9ab6a5);
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    h1 {
-      text-align: center;
-      color: #ac4425;
-    }
-    h2 {
-      text-align: center;
-      font-size: 24px;
-      font-weight: 600;
-      color: #224b0c;
-      border: 1px solid #ac4425;
-      border-radius: 20px;
-      padding: 25px;
-      transition: all 200ms ease-in-out;
-    }
-    h2:hover {
-      opacity: 0.7;
-      background: #afbdb5;
-      color: #f0f2b6;
-    }
-    h3 {
-      text-align: center;
-      font-size: 22px;
-      font-weight: 550;
-      color: #ac4425;
-      border: 1px solid #224b0c;
-      border-radius: 25px;
-      padding: 15px;
-      transition: all 200ms ease-in-out;
-    }
-    h3:hover {
-      opacity: 0.5;
-      color: #f2ffe9;
-      background: #ac4425;
-    }
-    h4 {
-      text-align: center;
-      font-size: 19px;
-      font-weight: 550;
-      color: #224b0c;
-    }
-    p {
-      text-align: justify;
-      line-height: 1.3;
-      font-size: 17px;
-      color: #2c3639;
-    }
-    a {
-      font-size: 14px;
-      display: block;
-      text-align: center;
-      text-decoration: none;
-      color: #224b0c;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    button {
-      display: block;
-      font-size: 18px;
-      margin: 20px auto;
-      padding: 15px 25px;
-      color: #ffff;
-      background: #9ab6a5;
-      border-style: none;
-      border-radius: 40px;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-      transition: all 200ms ease-in-out;
-    }
-    button:hover {
-      opacity: 0.9;
-      cursor: pointer;
-      color: #9ab6a5;
-      background: #fff;
-    }
-    .bracket {
-      max-width: 600px;
-      background: linear-gradient(#f0f2b6, #f2ffe9, #fff8d6);
-      margin: 0 auto;
-      padding: 25px 60px;
-      border-radius: 25px;
-    }
-    .image1 {
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-      border-radius: 20px;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    }
-    .image2 {
-      display: block;
-      margin: 0 auto;
-      max-width: 325px;
-      border-radius: 20px;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    }
-    .image3 {
-      display: block;
-      margin: 0 auto;
-      max-width: 325px;
-      border-radius: 20px;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-    }
-    .footer {
-      font-family: monospace;
-      font-size: 13px;
-      text-align: center;
-      margin-top: 40px;
-    }
-  </style>
   <body>
     <div class="bracket">
       <h1>Guardians of Hope 🐾</h1>
@@ -180,29 +68,5 @@
       <button>🐾 CONTACT US 🐾</button>
       <p class="footer">This page was built by Melania Tampubolon 👩‍💻</p>
     </div>
-    <script>
-      function pawLovers() {
-        let name = prompt("What is your name?");
-        let email = prompt("What is your email address?");
-        let choice = prompt(
-          "Please type 1 if you are more a DOG person\nAnd type 2 if you are more a cat person"
-        );
-        if (choice === "1") {
-          alert(
-            "Woof!Woof! 🐶🐶🐶\nThank you " +
-              name +
-              " for stopping by ❤️\nWe will be in touch by email 📧\nMeanwhile, have a pawsome day! 🐾🐾🐾"
-          );
-        } else {
-          alert(
-            "Meooooowww 😻😻😻.\nThank you " +
-              name +
-              " for stopping by ❤️\nWe will be in touch by email 📧\nMeanwhile, have a pawsome day! 🐾🐾🐾"
-          );
-        }
-      }
-      let contactButton = document.querySelector("button");
-      contactButton.addEventListener("click", pawLovers);
-    </script>
   </body>
 </html>
